@@ -1,0 +1,29 @@
+name: gmail_assignment
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.4 <4.0.0'
+
+dependencies:
+  country_picker: ^2.0.24
+  csc_picker: ^0.2.7
+  flutter:
+    sdk: flutter
+  flutter_colorpicker: ^1.0.3
+  flutter_font_picker: ^1.4.0
+  flutter_material_color_picker: ^1.2.0
+  get: ^4.6.6
+  get_storage: ^2.1.1
+  language_picker: ^0.4.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
